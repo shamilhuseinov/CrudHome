@@ -1,0 +1,11 @@
+﻿using PurpleBuzz.Models;
+
+namespace PurpleBuzz.ViewModels.Work
+{
+    public class WorkIndexVM
+    {
+        public List<Models.WorkCategory> WorkCategories { get; set; }
+        public TransformComponent TransformComponent { get; set; }
+
+    }
+}
